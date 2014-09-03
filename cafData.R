@@ -222,6 +222,6 @@ plot(P)
 ## Create a back up file with the googleVisMotionChart script
 # message("Create a text file with the output script for futur use")
 # sink("MotionChart.txt")
-# MotionChart
+# print(P, 'chart')
 # sink()
 
