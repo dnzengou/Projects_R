@@ -213,7 +213,7 @@ names(mydata)<- c("Indicator.Name", "Year", "Value")
 message("Visualize CAF data on a motion chart");
 P <- gvisMotionChart(mydata, idvar="Indicator.Name", timevar="Year")
 plot(P)
-# http://127.0.0.1:12125/custom/googleVis/MotionChartID348c74cd1dc.html
+# http://127.0.0.1:23300/custom/googleVis/MotionChartID20ccfe81e9.html
 
 ## Integrating gvis objects in existing sites
 # Copy and paste the output from the R console
