@@ -1,0 +1,5 @@
+## Create a gadget
+Gadget <- createGoogleGadget(M);
+cat(Gadget, file="DataBCGadget.xml");
+## In order to use the gadget, the file myGadget.xml has to be hosted online, e.g. using
+# Google Docs. Suppose the URL to the gadget is http://example.com/myGadget.xml, than you can embed the gadget
